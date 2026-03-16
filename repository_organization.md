@@ -36,12 +36,10 @@ Based on your feedback, here is the updated, English-only repository structure. 
 
 * **`analyze_trex_tracking_data.py`** *(formerly analyze_trex_npz.py)*: Parses T-Rex `.npz` tracking files, handles missing frames, and plots the flight trajectories (tracklets) of the bats.
 
-## 📂 5. `notebooks/`
-*Jupyter Notebooks used for early exploration and prototyping.*
-
-* Contains the old notebooks: [mask_to_yoloseg.ipynb](file:///Users/cara/Desktop/BA/YOLO/mask_to_yoloseg.ipynb), [mask_to_yoloseg_v2.ipynb](file:///Users/cara/Desktop/BA/YOLO/mask_to_yoloseg_v2.ipynb), [mask_to_yoloseg_v4.ipynb](file:///Users/cara/Desktop/BA/YOLO/mask_to_yoloseg_v4.ipynb).
-
 ---
 
-### Was brauchst du für GitHub? (Das README)
-Ja, ein `README.md` ist für GitHub extrem wichtig. Es ist die Visitenkarte deines Projekts. Dort steht drin, wofür der Code da ist, wie man ihn ausführt und in welcher Reihenfolge die Skripte benutzt werden müssen. Ich habe einen Entwurf für dich in `README_draft.md` angelegt.
+### Next Steps for GitHub
+The repository is now fully organized and verified.
+- **Main Branch**: Contains the final restructured and fused codebase.
+- **Yolo_into_polygon Branch**: Matches the clean state and can be used for feature development.
+- **Documentation**: Use `README.md` as the primary guide for other users.
