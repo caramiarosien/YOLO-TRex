@@ -1,5 +1,13 @@
-/.DS_Store
+.DS_Store
+__pycache__/
+*.pyc
+Kasanka_YOLO_Dataset_train/
+Kasanka_YOLO_Dataset_train_mask/
 /Images
 /Untitled-1.py
 /YOLO_Dataset
 /YOLO_Dataset.zip
+venv/
+node_modules/
+.vscode/
+.idea/
