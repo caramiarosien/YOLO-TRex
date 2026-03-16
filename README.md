@@ -29,8 +29,6 @@ Make sure you have python installed. The required packages include:
 - `pandas`
 - `matplotlib`
 
-*A `requirements.txt` file will be provided to easily install all dependencies.*
-
 ### Usage Pipeline
 To process new data, the scripts are generally run in this order:
 1. Run frame extraction from `data_extraction_and_sampling/`
