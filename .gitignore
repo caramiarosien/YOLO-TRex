@@ -1,0 +1,18 @@
+# Track only the curated initial release. All other local research files remain untracked.
+/*
+
+!/.gitignore
+!/README.md
+
+!/Preparation/
+/Preparation/*
+!/Preparation/analyze_video_brightness.py
+!/Preparation/categorize_videos_by_brightness.py
+!/Preparation/extract_frames_batch_parallel.py
+!/Preparation/run_trex_batch.py
+
+!/Final-Method/
+/Final-Method/*
+!/Final-Method/compare_counting_methods.py
+!/Final-Method/countline_bat_crossings.py
+!/Final-Method/visualize_counting_line.py
