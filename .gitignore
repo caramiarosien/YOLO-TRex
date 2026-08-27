@@ -1,18 +1,15 @@
-# Track only the curated initial release. All other local research files remain untracked.
+# Track only the curated scripts for the thesis code release.
+**/__pycache__/
+*.py[cod]
 /*
 
 !/.gitignore
 !/README.md
-
-!/Preparation/
-/Preparation/*
-!/Preparation/analyze_video_brightness.py
-!/Preparation/categorize_videos_by_brightness.py
-!/Preparation/extract_frames_batch_parallel.py
-!/Preparation/run_trex_batch.py
-
-!/Final-Method/
-/Final-Method/*
-!/Final-Method/compare_counting_methods.py
-!/Final-Method/countline_bat_crossings.py
-!/Final-Method/visualize_counting_line.py
+!/preparation/
+!/preparation/*.py
+/preparation/categorize_videos_by_brightness.py
+/preparation/run_trex_batch.py
+!/counting/
+!/counting/*.py
+!/threshold_analysis/
+!/threshold_analysis/*.py

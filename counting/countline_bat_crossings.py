@@ -3,7 +3,7 @@
 countline_bat_crossings.py — Virtual Counting Line for Bat Population Analysis
 ===============================================================================
 
-Processes T-ReX tracking files (.npz or .csv) and counts bats crossing
+Processes TRex tracking files (.npz or .csv) and counts bats crossing
 a horizontal midline using frame-accurate trajectory analysis. Includes
 spatial and temporal filtering to remove noise (dust, insects).
 
@@ -38,9 +38,9 @@ import pandas as pd
 # ===========================================================================
 # ⚙️  CONFIGURATION — edit default paths here
 # ===========================================================================
-DEFAULT_DATA_DIR = "/Users/cara/Desktop/BA/Data/Analysis_BA_videos/17Nov-brightness-processed/"
+DEFAULT_DATA_DIR = "path/to/tracking_results"
 DEFAULT_PREFIX = ""
-DEFAULT_OUTPUT_DIR = "/Users/cara/Desktop/BA/Method_YOLO/Final-Output"
+DEFAULT_OUTPUT_DIR = "path/to/output_directory"
 
 
 
@@ -515,7 +515,7 @@ def process_batch_directory(
 
 def main():
     parser = argparse.ArgumentParser(
-        description="CountLine — Virtual counting line for T-ReX bat tracking data. "
+        description="CountLine — Virtual counting line for TRex bat tracking data. "
                     "Crossing logic follows Koger et al. (2023): a track is counted "
                     "as one crossing if its first and last Y positions are on opposite "
                     "sides of the countline. The line is placed at int(video_h / 2).",
@@ -577,7 +577,7 @@ def main():
     )
     parser.add_argument(
         "--split_segments", action="store_true", default=True,
-        help="Split tracks into independent segments at tracking gaps using T-ReX tracklets "
+        help="Split tracks into independent segments at tracking gaps using TRex tracklets "
              "(default: True, matching Ben Koger's segment-based benchmark counting). "
              "Pass --no_split_segments to disable and treat each full tracklet as one trajectory.",
     )

@@ -15,10 +15,10 @@ from pathlib import Path
 # ============================================================
 
 # Path to the directory containing all .mp4 files
-VIDEO_DIR = "/Users/cara/Desktop/BA/Data/Analysis_BA_videos/17Nov-raw"
+VIDEO_DIR = "path/to/video_directory"
 
 # Path to the CSV output file
-OUTPUT_CSV = "/Users/cara/Desktop/BA/Data/2019_brightness/video_brightness-17Nov19.csv"
+OUTPUT_CSV = "path/to/video_brightness.csv"
 
 # Interval in seconds between frames to analyze
 SAMPLE_INTERVAL_SEC = 30
