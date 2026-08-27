@@ -4,7 +4,7 @@ This repository contains the data preparation, mask generation, and YOLO formatt
 
 The project is structured into sequentially organized modules that take raw video data, extract frames, generate and filter segmentation masks, and finally convert them into YOLO-formatted datasets for training computer vision models.
 
-## 📁 Repository Structure
+## Repository Structure
 
 The project code is divided into four main chronological steps:
 
@@ -20,7 +20,7 @@ Tools to transform the cleaned binary masks into normalized YOLO segmentation po
 ### 4. `tracking_and_trajectory_analysis/`
 Post-processing tools that analyze the outputs of the T-Rex tracking software (`.npz` files), reconstruct bat trajectories (tracklets), and visualize their flight paths across the frame.
 
-## 🚀 Getting Started
+## Getting Started
 
 ### Prerequisites
 Make sure you have python installed. The required packages include:
@@ -36,6 +36,3 @@ To process new data, the scripts are generally run in this order:
 3. Use `generate_binary_masks.py` and filtering scripts in `mask_generation_and_noise_filtering/` to create ground truth data.
 4. Convert those masks using the scripts in `yolo_label_generation/` to get your `.txt` label files.
 5. Train your YOLO model (not included in this repo).
-
-## 📝 License
-[Specify License, e.g., MIT, GPL, or proprietary]
